@@ -65,10 +65,10 @@ func SendMail(d *gomail.Dialer, from string, to []string, data interface{}, tpln
 }
 
 func main() {
-	from := "1497298196@qq.com"
-	to := []string{"1497298196@qq.com"}
+	from := "xxxx"
+	to := []string{"xxx"}
 	host := "smtp.qq.com"
-	username, password := "1497298196@qq.com", "vjemifuptlvvieeg"
+	username, password := "xxxxx@qq.com", "xxxxx"
 	tplnames := []string{"table.tpl"}
 	table := GenTable()
 	dailer := gomail.NewDialer(host, 25, username, password)
